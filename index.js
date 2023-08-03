@@ -17,7 +17,7 @@ jsonServerApp.use(router);
 app.use('/', jsonServerApp);
 
 //serve the image using express
-app.use('/images', express.static(path.join(__dirname, 'images')));
+//app.use('/images', express.static(path.join(__dirname, 'images')));
 
 // Additional Express routes and server-side logic can be added here
 // For example, serving static files, handling authentication, etc.
